@@ -4,7 +4,7 @@ compatibility_date = "2024-01-01"
 
 [vars]
 # Environment variables can be set here
-# Example: API_KEY = "your-api-key-here"
+# Example: API_KEY = "MFpj3ORz3YjbTNYj3t6ps-Cf4K5ibFgbnnKzVSvM"
 
 # Development environment
 [env.development]
