@@ -1,0 +1,15 @@
+name = "admin-dashboard"
+main = "admin-fixed.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Environment variables can be set here
+# Example: API_KEY = "your-api-key-here"
+
+# Development environment
+[env.development]
+name = "admin-dashboard-dev"
+
+# Production environment  
+[env.production]
+name = "admin-dashboard"
