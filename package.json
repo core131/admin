@@ -1,0 +1,27 @@
+
+{
+  "name": "cloudflare-admin-dashboard",
+  "version": "1.0.0",
+  "description": "Modern Cloudflare DNS and Worker Management Dashboard",
+  "main": "admin-fixed.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env development",
+    "deploy:production": "wrangler deploy --env production",
+    "tail": "wrangler tail",
+    "whoami": "wrangler whoami"
+  },
+  "keywords": [
+    "cloudflare",
+    "dns",
+    "workers",
+    "dashboard",
+    "admin"
+  ],
+  "author": "Core131",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
